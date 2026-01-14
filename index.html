@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 <style>
-.dark-mode body { background-color: #111827; transition: background-color 0.3s ease; color: #ffffff; }
+.dark-mode body { background-color: #111827 !important; transition: background-color 0.3s ease; color: #ffffff !important; }
 .dark-mode header { background-color: #111827; transition: background-color 0.3s ease; color: #ffffff; }
 .dark-mode section { background-color: #111827; transition: background-color 0.3s ease; }
 .dark-mode footer { background-color: #111827; transition: background-color 0.3s ease; }
@@ -132,10 +132,10 @@
         <section id="skills" class="py-20 bg-gray-50 transition-colors duration-300">
             <div class="container mx-auto px-4">
                 <h2 class="text-3xl font-bold mb-8 text-center">SKILLS</h2>
-                <div class="flex flex-wrap justify-around text-center">
-                    <div class="border border-purple-600 bg-purple-100 p-20 rounded-lg font-semibold">HTML</div>
-                    <div class="border border-purple-600 bg-purple-100 p-20 rounded-lg font-semibold">CSS</div>
-                    <div class="border border-purple-600 bg-purple-100 p-20 rounded-lg font-semibold">JavaScript</div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
+                    <div class="border border-purple-600 bg-purple-100 p-6 rounded-lg font-semibold">HTML</div>
+                    <div class="border border-purple-600 bg-purple-100 p-6 rounded-lg font-semibold">CSS</div>
+                    <div class="border border-purple-600 bg-purple-100 p-6 rounded-lg font-semibold">JavaScript</div>
                 </div>
             </div>
         </section>
